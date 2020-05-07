@@ -1,0 +1,32 @@
+{
+  "name": "webdriverio-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run app-test",
+    "app-test": "wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "Krushna Khavle",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/appium-service": "^6.1.0",
+    "@wdio/cli": "^6.1.9",
+    "@wdio/cucumber-framework": "^6.1.8",
+    "@wdio/local-runner": "^6.1.9",
+    "@wdio/mocha-framework": "^6.1.8",
+    "@wdio/spec-reporter": "^6.1.9",
+    "@wdio/sync": "^6.1.8",
+    "appium": "^1.17.1",
+    "chromedriver": "^81.0.0",
+    "wdio-chromedriver-service": "^6.0.3",
+    "allure-commandline": "^2.5.0",
+    "wdio-allure-reporter": "^0.6.2"
+  },
+  "dependencies": {
+    "@wdio/allure-reporter": "^6.1.9",
+    "cucumber": "^6.0.5",
+    "wdio-html-format-reporter": "^0.4.0"
+  }
+}
